@@ -151,7 +151,7 @@
     <!-- Header End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5 marginAbout" id="about">
+    <div class="containerAbout container-fluid py-5 marginAbout" id="about">
       <div class="container">
         <div
           class="position-relative d-flex align-items-center justify-content-center"
@@ -170,8 +170,8 @@
           <h3 class="mb-4 tituloAbout">María Josefina García Saénz</h3>
         </div>
         <div class="row align-items-center">
-          <div class="col-lg-5 pb-4 pb-lg-0">
-            <img class="img-fluid rounded w-100" src="img/about.jpg" alt="" />
+          <div class="imgExpand col-lg-5 pb-4 pb-lg-0">
+            <img class="rounded w-100" src="img/about.jpg" alt="" />
           </div>
           <div class="col-lg-7">
             <p>
@@ -291,47 +291,65 @@
     <!-- Services Start -->
     <div class="container-fluid pt-5" id="service">
       <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            Servicios
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">Terapía</h1>
-        </div>
-        <div class="">
-          <div class="contenedorTerapia">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <h4 class="font-weight-bold m-0">
-                Psicoterapia individual de adultos
-              </h4>
-            </div>
-            <p>
-              Psicoterapia individual de adultos desde un enfoque humanista y
-              respetuoso con el consultante; buscando a través del vínculo,
-              escucha activa, tareas y, por sobre todo, un acompañamiento
-              terapéutico integral; que el conflicto se transforme en una
-              oportunidad de cambio y aprendizaje
-            </p>
-            <div class="botonServicio">
-              <a
-                class="border-bottom border-primary text-decoration-none"
-                href=""
-                >Valor Consulta</a
-              >
-              <a
-                class="border-bottom border-primary text-decoration-none"
-                href=""
-                >Valor Consulta</a
-              >
-            </div>
-          </div>
-        </div>
+          <div class="position-relative d-flex align-items-center justify-content-center">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Servicios</h1>
+              <h1 class="position-absolute text-uppercase text-primary">Terapía</h1>
+          </div> <br><br>
+          <div class="row pb-3">
+              <div class="col-lg-4 col-md-6 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                      <h4 class="font-weight-bold m-0">Psicoterapia Individual Adultos</h4>
+                  </div>
+                  <p>Psicoterapia individual de adultos, desde el enfoque humanista y respetuoso con el consultante; buscando a través del vínculo
+                    escucha activa, tareas y por sobre todo, un acompañamiento terapéutico integral; que el conflicto se transforme en una oportunidad de cambio 
+                    y aprendizaje.
+                  </p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                      <h4 class="font-weight-bold m-0">Web Development</h4>
+                  </div>
+                  <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+              <!--<div class="col-lg-4 col-md-6 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                      <h4 class="font-weight-bold m-0">Apps Design</h4>
+                  </div>
+                  <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                      <h4 class="font-weight-bold m-0">Apps Development</h4>
+                  </div>
+                  <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                      <h4 class="font-weight-bold m-0">SEO</h4>
+                  </div>
+                  <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                      <h4 class="font-weight-bold m-0">Content Creating</h4>
+                  </div>
+                  <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+          </div>-->
       </div>
-    </div>
+  </div>
     <!-- Services End -->
 
     <!-- Portfolio Start 
@@ -428,17 +446,20 @@
           <div class="col-lg-8">
             <div class="">
               <div class="text-center parrafo">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                <h4 class="parrafoRotter"></h4>
-                <div class="parrafo typed-Rooter d-none">
-                  El propósito de la terapia, no está en resolver todos los
-                  problemas del paciente, sino más bien, en aumentar la
-                  capacidad de éste, para que pueda resolver sus propios
-                  problemas..
+                <div>
+                  <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                  <h4 class="parrafoRotter"></h4>
+                  <div class="parrafo typed-Rooter d-none">
+                    El propósito de la terapia, no está en resolver todos los
+                    problemas del paciente, sino más bien, en aumentar la
+                    capacidad de éste, para que pueda resolver sus propios
+                    problemas..
+                  </div>
+  
+                  <h5 class="font-weight-bold m-0">Rotter J</h5>
+                  <span>1954</span>
                 </div>
-
-                <h5 class="font-weight-bold m-0">Rotter J</h5>
-                <span>1954</span>
+               
               </div>
               <!--
                         <div class="text-center">
@@ -462,8 +483,8 @@
     </div>
     <!-- Testimonial End -->
 
-    <!-- Blog Start -->
-    <div class="container-fluid pt-5" id="agenda">
+    <!-- Comienzo Calendario -->
+    <div class="containerAbout container-fluid pt-5" id="agenda">
       <div class="container">
         <div
           class="position-relative d-flex align-items-center justify-content-center"
@@ -494,7 +515,7 @@
         </div>
       </div>
     </div>
-    <!--Blog End -->
+    <!--Final Calendario -->
 
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
