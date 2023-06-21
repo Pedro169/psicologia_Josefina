@@ -2204,7 +2204,7 @@ textarea.form-control {
   top: 100%;
   left: 0;
   z-index: 5;
-  display: none;
+ 
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
@@ -4390,7 +4390,6 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -10221,7 +10220,7 @@ h6,
 }
 
 .navbar-light {
-  display: none;
+  display: flex;
 }
 
 .navbar-light .navbar-nav .nav-link {

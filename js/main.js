@@ -3,10 +3,10 @@
 
   // Barra de navegación al desplazarse
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 100) {
       $(".navbar").fadeIn("slow").css("display", "flex");
     } else {
-      $(".navbar").fadeOut("slow").css("display", "none");
+      $(".navbar").fadeOut("slow").css("display", "flex");
     }
   });
 
