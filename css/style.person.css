@@ -1,0 +1,35 @@
+.botonesConoceme {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tituloAbout {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secundary {
+  background-color: #0dd1a9;
+  color: white;
+  border-color: #0dd1a9;
+}
+
+.btn-secundary:hover {
+  color: #0dd1a9;
+  background-color: white;
+  border-color: #0dd1a9;
+}
+
+.qt-background {
+  background: url(../img/img-frase.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+.parrafo {
+  background-color: white;
+  color: white;
+}

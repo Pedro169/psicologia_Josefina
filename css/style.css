@@ -394,7 +394,7 @@ h6,
   color: #343a40;
 }
 .display-1 {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -479,7 +479,7 @@ h4,
 
 @media (max-width: 1200px) {
   .display-1 {
-    font-size: calc(2.125rem + 10.5vw);
+    font-size: calc(1.125rem + 10.5vw);
   }
 }
 
@@ -496,7 +496,7 @@ h4,
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -2204,7 +2204,7 @@ textarea.form-control {
   top: 100%;
   left: 0;
   z-index: 5;
- 
+
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
@@ -10223,6 +10223,10 @@ h6,
   display: flex;
 }
 
+.navbar-light :hover {
+  opacity: 0.5px;
+}
+
 .navbar-light .navbar-nav .nav-link {
   padding: 25px 10px;
   color: #343a40;
@@ -10421,5 +10425,3 @@ h6,
   display: flex;
   justify-content: space-evenly;
 }
-
-
