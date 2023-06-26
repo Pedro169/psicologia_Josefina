@@ -109,7 +109,7 @@
   position: fixed;
   width: 30px;
   text-align: center;
-  right: 50px;
+  right: 30px;
   bottom: 90px;
   z-index: 11;
   animation: action 1s infinite alternate;
@@ -219,6 +219,7 @@ span {
   .rrss {
     display: flex;
     position: relative;
+    top: 20px;
     left: 100px;
     padding: 10px;
   }
