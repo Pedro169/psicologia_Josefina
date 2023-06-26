@@ -19,7 +19,7 @@ $(function () {
           name: name,
           telefono: telefono,
           email: email,
-          message: mensaje,
+          message: message,
         },
         cache: false,
         success: function () {
@@ -30,7 +30,7 @@ $(function () {
             )
             .append("</button>");
           $("#success > .alert-success").append(
-            "<strong>Your message has been sent. </strong>"
+            "<strong>Tú mensaje fue enviado con exito</strong>"
           );
           $("#success > .alert-success").append("</div>");
           $("#contactForm").trigger("reset");

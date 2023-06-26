@@ -124,3 +124,8 @@
     items: 1,
   });
 })(jQuery);
+
+function expandButton() {
+  var button = document.getElementById("expandButton");
+  button.classList.add("expanded");
+}

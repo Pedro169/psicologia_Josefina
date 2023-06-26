@@ -23,6 +23,42 @@
   background-color: white;
   border-color: #0dd1a9;
 }
+.btn-agenda {
+  border: 1px solid #0dd1a9;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btn-agenda:hover {
+  background-color: #0dd1a9;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-heat {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+.btn-heat:hover {
+  background-color: white;
+  color: #0dd1a9;
+  text-decoration: none;
+}
+.btn-conoceme {
+  border: 1px solid #0dd1a9;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btn-conoceme:hover {
+  background-color: #0dd1a9;
+  color: white;
+  text-decoration: none;
+}
 
 .qt-background {
   background: url(../img/img-frase.jpg) no-repeat;
@@ -34,23 +70,99 @@
 }
 
 .parrafo {
-  background-color: rgb(255, 255, 255, 0.5);  
+  background-color: rgb(255, 255, 255, 0.5);
   padding: 10px;
   color: black;
   border-radius: 15px;
 }
 
-.containerAbout{
+.containerAbout {
   border-bottom: solid #0dd1a9 1px;
 }
 
-.imgExpand{
+.imgExpand {
   width: 100%;
   height: 100%;
   transition: transform 0.3s ease;
   transform-origin: center;
   cursor: pointer;
 }
-.imgExpand :hover{
+.imgExpand :hover {
   transform: scale(1.1);
+}
+.serviciosCentrar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.volver {
+  display: none;
+}
+.contenedorVolver {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .serviciosCentrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .botonesConoceme {
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .btn-agenda {
+    border: 1px solid #0dd1a9;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+
+  .btn-agenda:hover {
+    background-color: #0dd1a9;
+    color: white;
+    text-decoration: none;
+  }
+
+  .btn-heat {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+
+  .btn-heat:hover {
+    background-color: white;
+    color: #0dd1a9;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .volver {
+    display: flex;
+    justify-content: center;
+    background-color: #0dd1a9;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .volver:hover {
+    background-color: white;
+    border: #0dd1a9 solid 1px;
+    color: #0dd1a9;
+    text-decoration: none;
+  }
+  .contenedorVolver {
+    display: flex;
+    justify-content: center;
+  }
 }

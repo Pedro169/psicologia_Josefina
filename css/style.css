@@ -2896,6 +2896,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.5);
 }
 
+
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
   color: #0dd1a9;
