@@ -101,7 +101,134 @@
 .contenedorVolver {
   display: none;
 }
+.logoWhatsapp {
+  width: 60px;
+  height: 60px;
+}
+.whatsapp {
+  position: fixed;
+  width: 30px;
+  text-align: center;
+  right: 50px;
+  bottom: 90px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+.contenedorFooter {
+  display: flex;
+  flex-direction: column;
+  background-color: #0dd1a9;
+  color: white;
+}
+.contenidoFooter {
+  display: flex;
+  justify-content: center;
+}
+.rrss {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 66px;
+  left: 50px;
+}
+.icon {
+  padding: 10px;
+}
+.parrafoFinal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.informacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 18px;
+  padding: 20px;
+}
+.tituloInformacion {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+.jose {
+  position: relative;
+  border-top: solid white 2px;
+  padding: 20px;
+}
+span {
+  color: black;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  right: 50px;
+  padding: 20px;
+}
+.inicio {
+  color: black;
+  font-weight: bold;
+}
+.inicio:hover {
+  color: white;
+  text-decoration: none;
+}
+.aFooter {
+  color: white;
+}
+.aFooter:hover {
+  color: black;
+  text-decoration: none;
+}
 @media (max-width: 1200px) {
+  .contenedorFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0dd1a9;
+    color: white;
+  }
+  .contenidoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navFooter {
+    display: none;
+  }
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 18px;
+  }
+  .tituloInformacion {
+    display: flex;
+    justify-content: center;
+  }
+  .rrss {
+    display: flex;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+  }
+  .jose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid white 2px;
+    padding: 10px;
+  }
   .serviciosCentrar {
     display: flex;
     flex-direction: column;
@@ -141,6 +268,20 @@
     background-color: white;
     color: #0dd1a9;
     text-decoration: none;
+  }
+  .whatsapp {
+    position: fixed;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    right: 30px;
+    bottom: 90px;
+    z-index: 11;
+    animation: action 1s infinite alternate;
+  }
+  .logoWhatsapp {
+    width: 40px;
+    height: 40px;
   }
 }
 
