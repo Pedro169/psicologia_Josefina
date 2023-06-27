@@ -129,7 +129,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 66px;
+  top: 19px;
   left: 50px;
 }
 .icon {
@@ -196,6 +196,7 @@ span {
     flex-direction: column;
     background-color: #0dd1a9;
     color: white;
+    width: 100%;
   }
   .contenidoFooter {
     display: flex;
@@ -211,17 +212,17 @@ span {
     justify-content: center;
     position: relative;
     top: 18px;
+    font-size: 15px;
   }
   .tituloInformacion {
     display: flex;
     justify-content: center;
   }
   .rrss {
+    display: none;
+  }
+  .rrssContent {
     display: flex;
-    position: relative;
-    top: 20px;
-    left: 100px;
-    padding: 10px;
   }
   .jose {
     display: flex;
@@ -229,6 +230,7 @@ span {
     align-items: center;
     border-top: solid white 2px;
     padding: 10px;
+    font-size: 15px;
   }
   .serviciosCentrar {
     display: flex;
@@ -238,11 +240,28 @@ span {
   }
   .botonesConoceme {
     display: flex;
+    flex-direction: column;
     position: relative;
     top: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+  }
+  .parrafo {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    font-size: 5px;
+  }
+
+  .btn-secundary {
+    background-color: #0dd1a9;
+    color: white;
+    border-color: #0dd1a9;
+    position: relative;
+    top: 20px;
+    padding: 10px 30px;
   }
   .btn-agenda {
     border: 1px solid #0dd1a9;

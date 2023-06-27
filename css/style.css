@@ -7019,13 +7019,16 @@ button.bg-dark:focus {
 
 .d-flex {
   display: flex !important;
+  justify-content: center;
 }
 
 .d-inline-flex {
   display: inline-flex !important;
 }
 
+
 @media (min-width: 576px) {
+  
   .d-sm-none {
     display: none !important;
   }
