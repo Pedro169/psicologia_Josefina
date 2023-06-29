@@ -213,10 +213,16 @@ span {
   background-color: white;
   padding: 20px;
   display: flex;
+  flex-direction: column;
 }
 .cajaServicios2{
   background-color: white;
   padding: 5px;
+}
+.btn-servicios{
+  border: solid 1px #0dd1a9;
+  padding: 10px 20px;
+  
 }
 @media (max-width: 1200px) {
   .contenedorFooter {
