@@ -91,7 +91,7 @@
   transform: scale(1.1);
 }
 .serviciosCentrar {
-  display: flex;
+  display: flex;  
   justify-content: space-evenly;
   align-items: center;
 }
@@ -109,7 +109,7 @@
   position: fixed;
   width: 30px;
   text-align: center;
-  right: 30px;
+  right: 50px;
   bottom: 90px;
   z-index: 11;
   animation: action 1s infinite alternate;
@@ -118,8 +118,9 @@
 .contenedorFooter {
   display: flex;
   flex-direction: column;
+  background-repeat: no-repeat;
   background-color: #0dd1a9;
-  color: white;
+  color: black;
 }
 .contenidoFooter {
   display: flex;
@@ -129,7 +130,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 19px;
+  top: 80px;
   left: 50px;
 }
 .icon {
@@ -148,9 +149,16 @@
   top: 18px;
   padding: 20px;
 }
-.tituloInformacion {
+.tituloInformacion1 {
   text-align: center;
   border-bottom: 2px solid white;
+}
+.tituloInformacion2 {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+.tituloInformacion3 {
+  display: none;
 }
 .jose {
   position: relative;
@@ -188,6 +196,28 @@ span {
   color: black;
   text-decoration: none;
 }
+.saberMas{
+  position: absolute;
+  border: #89b8ae 1px solid;
+  padding: 5px 50px;
+  border-radius: 15px;
+  text-decoration: none;
+  top: 20px;
+  text-align: center;
+}
+.contenedorServicios{
+  background-color: #ececec;
+  display: flex;
+}
+.cajaServicios{
+  background-color: white;
+  padding: 20px;
+  display: flex;
+}
+.cajaServicios2{
+  background-color: white;
+  padding: 5px;
+}
 @media (max-width: 1200px) {
   .contenedorFooter {
     display: flex;
@@ -195,13 +225,21 @@ span {
     align-items: center;
     flex-direction: column;
     background-color: #0dd1a9;
-    color: white;
+    color: black;
     width: 100%;
   }
   .contenidoFooter {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .tituloInformacion1 {
+    display: none;
+  }
+  .tituloInformacion3 {
+    display: flex;
+    text-align: center;
+    border-bottom: 2px solid white;
   }
   .navFooter {
     display: none;
@@ -210,7 +248,9 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: cente;
     position: relative;
+    text-align: center;
     top: 18px;
     font-size: 15px;
   }
@@ -219,7 +259,11 @@ span {
     justify-content: center;
   }
   .rrss {
-    display: none;
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 200px;
   }
   .rrssContent {
     display: flex;
@@ -229,7 +273,7 @@ span {
     justify-content: center;
     align-items: center;
     border-top: solid white 2px;
-    padding: 10px;
+    padding: 20px;
     font-size: 15px;
   }
   .serviciosCentrar {
@@ -264,6 +308,7 @@ span {
     padding: 10px 30px;
   }
   .btn-agenda {
+    display: none;
     border: 1px solid #0dd1a9;
     padding: 5px 10px;
     border-radius: 30px;
@@ -315,6 +360,8 @@ span {
     border-radius: 30px;
     font-size: 25px;
     text-decoration: none;
+    position: relative;
+    bottom: 15px;
   }
   .volver:hover {
     background-color: white;

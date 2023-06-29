@@ -481,7 +481,7 @@ h4,
 
 @media (max-width: 1200px) {
   .display-1 {
-    font-size: calc(1.125rem + 10.5vw);
+    font-size: calc(15px + 10.5vw);
   }
 }
 
