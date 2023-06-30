@@ -1,0 +1,310 @@
+.principio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
+}
+.h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0dd1a9;
+  font-size: 30px;
+}
+.principio p {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.division {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0dd1a9;
+  width: 400px;
+  height: 5px;
+}
+.contenedorServicio {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  justify-content: center;
+  padding: 20px;
+ 
+}
+.contenedorServicio1 {
+  display: flex;  
+  position: relative;
+  right: 10px; 
+}
+.contenedorPsicoterapia{
+  display: flex;
+  padding: 20px;
+  color: black;
+
+}
+.valor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+
+}
+
+.contenedorServicio2 {
+  display: flex;
+  flex-direction: column; 
+  border-top: #0dd1a9 solid 1px;
+  padding: 10px;
+ 
+}
+.flexValores {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.strong {
+  position: relative;
+  text-align: center;
+  top: 15px;
+  color: #0dd1a9;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+.interiorServicio {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+.contendorPsicoespiritual{
+  display: flex;
+}
+.descriptionPsicoespiritual{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+}
+.descriptionPsicoterapia{
+  display: flex;
+  flex-direction: column;
+  border: 1px grey solid;  
+  padding: 30px;
+  color: black;
+  box-shadow: 0 0 10px 5px #929292;
+  position: relative;
+  left: 20px;
+
+}
+.pSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+.pSpan2 {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.pSpan3 {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;  
+}
+.contenedorValores1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px grey solid;  
+  padding: 30px;
+  color: black;
+  box-shadow: 0 0 10px 5px #929292;
+  position: relative;
+  right: 20px;
+  
+}
+.contenedorValores2{
+  display: flex;
+  flex-direction: column;
+  border: 1px grey solid; 
+  padding: 30px;
+  color: black;
+  box-shadow: 0 0 10px 5px #929292;
+  position: relative;
+  left: 20px;
+}
+.cuartaSesion {
+  color: #0dd1a9;
+  font-size: 25px;
+}
+.btnAgenda{
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: #0dd1a9 solid 1px;
+  
+}
+.btnAgenda:hover{
+  background-color: #0dd1a9;
+  color: white;
+  text-decoration: none;
+}
+.contieneBoton{
+  display: flex;
+  justify-content: end;
+  position: relative;
+
+
+}
+.contieneBoton1{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: 40px;
+}
+@media (max-width: 1200px) {
+  .valor {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  .h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0dd1a9;
+    font-size: 20px;
+  }
+  .principio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  .principio p {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100px;
+    height: 3px;
+  }
+  .imgPSicoespiritual{
+    display: none;
+  }
+  .flexValores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .descriptionPsicoterapia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px grey solid;  
+    padding: 15px;
+    color: black;
+    box-shadow: 0 0 10px 5px #929292;
+    font-size: 15px; 
+    position: relative;
+    left: 0; 
+  }
+  .descriptionPsicoespiritual{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 15px;
+  
+  }
+  .strong{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+  }
+  .pSpan2 {
+    display: flex;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  .pSpan3 {
+    display: flex;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;  
+  }
+  .contenedorValores1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;  
+    padding: 30px;
+    color: black;
+    box-shadow: 0 0 10px 5px #929292;
+    position: relative;
+    right: 0;
+    font-size: 15px;
+  }
+  .contenedorValores2{
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid; 
+    padding: 30px;
+    color: black;
+    box-shadow: 0 0 10px 5px #929292;
+    position: relative;
+    left: 0;
+    top: 30px;
+    font-size: 15px;   
+  }
+  .cuartaSesion {
+    color: #0dd1a9;
+    font-size: 15px;
+  }
+  .contieneBoton{
+    display: flex;
+    justify-content: end;
+    position: relative;
+  
+  
+  }
+  .contieneBoton1{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 10px;
+  }
+  .contenedorVolverServ{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    justify-content: center;
+  }
+}

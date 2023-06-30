@@ -94,7 +94,25 @@
             <div
               class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5"
             >
-              <a href="" class="btn btn-outline-light mr-5">Agendemos</a>
+            <div>
+              <!-- Principio del widget de enlace de Calendly -->
+              <link
+                href="https://assets.calendly.com/assets/external/widget.css"
+                rel="stylesheet"
+              />
+              <script
+                src="https://assets.calendly.com/assets/external/widget.js"
+                type="text/javascript"
+                async
+              ></script>
+              <a
+                class="btn-heat"
+                href=""
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/30min?hide_gdpr_banner=1&background_color=0dd1a9&text_color=ffffff&primary_color=1a1a1a'});return false;"
+                >¿Agendemos?</a
+              >
+              <!-- Final del widget de enlace de Calendly -->
+            </div>
               <!--<button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                             <span></span>
@@ -287,7 +305,7 @@
     </div>
     <!-- Qualification End -->
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
+    <div class="contenedorServicios container-fluid py-5" id="contact">
       <div class="container">
         <div
           class="position-relative d-flex align-items-center justify-content-center"
@@ -367,11 +385,12 @@
           </div>
         </div>
       </div>
+      <div class="contenedorVolver">
+        <a class="volver" href="index.html">Volver</a>
+      </div>
     </div>
     <!-- Contact End -->
-    <div class="contenedorVolver">
-      <a class="volver" href="index.html">Volver</a>
-    </div>
+   
 
     <!-- whatsapp start -->
     <div>
@@ -451,10 +470,10 @@
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-    <!-- Back to Top -->
+    <!-- Back to Top 
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"
       ><i class="fa fa-angle-double-up"></i
-    ></a>
+    ></a>-->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

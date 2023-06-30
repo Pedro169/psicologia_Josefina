@@ -91,7 +91,7 @@
   transform: scale(1.1);
 }
 .serviciosCentrar {
-  display: flex;  
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -196,7 +196,7 @@ span {
   color: black;
   text-decoration: none;
 }
-.saberMas{
+.saberMas {
   position: absolute;
   border: #89b8ae 1px solid;
   padding: 5px 50px;
@@ -205,24 +205,41 @@ span {
   top: 20px;
   text-align: center;
 }
-.contenedorServicios{
+.contenedorServicios {
   background-color: #ececec;
-  display: flex;
 }
-.cajaServicios{
+.cajaServicios {
   background-color: white;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px #bebbbb;
 }
-.cajaServicios2{
+.cajaServicios2 {
   background-color: white;
   padding: 5px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px 5px #bebbbb;
 }
-.btn-servicios{
+.centradoBtn {
+  display: flex;
+  justify-content: center;
+}
+.btn-servicios {
+  display: flex;
   border: solid 1px #0dd1a9;
-  padding: 10px 20px;
-  
+  padding: 10px 40px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 20px;
+  background-color: white;
+}
+.btn-servicios:hover {
+  background-color: #0dd1a9;
+  color: white;
+  text-decoration: none;
 }
 @media (max-width: 1200px) {
   .contenedorFooter {
@@ -362,11 +379,12 @@ span {
     justify-content: center;
     background-color: #0dd1a9;
     color: white;
-    padding: 10px 60px;
+    padding: 6px 58px;
     border-radius: 30px;
     font-size: 25px;
     text-decoration: none;
     position: relative;
+    top: 20px;
     bottom: 15px;
   }
   .volver:hover {
