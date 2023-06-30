@@ -358,6 +358,12 @@ span {
     color: white;
     text-decoration: none;
   }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+  }
 
   .btn-heat {
     border: 1px solid white;
