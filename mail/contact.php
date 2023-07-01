@@ -9,7 +9,7 @@ $telefono = strip_tags(htmlspecialchars($_POST['telefono']));
 $email = strip_tags(htmlspecialchars($_POST['email']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-$to = "info@example.com"; // Change this email to your //
+$to = "ps.josefinagarcia@gmail.com"; // Change this email to your //
 $subject = "$telefono:  $name";
 $body = "$name Necesita contactarse contigo, por favor responder a la brevedad.\n\n"."Detalle:\n\nNombre: $name\n\n\nTelefóno: $telefono\n\nCorreo: $email\n\nMensaje: $message";
 $header = "From: $email";

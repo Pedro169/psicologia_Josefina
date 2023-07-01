@@ -75,12 +75,15 @@
   font-weight: bold;
 }
 .interiorServicio {
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
   font-size: 20px;
   text-align: left;
 }
 .contendorPsicoespiritual {
   display: flex;
+  justify-content: space-evenly;
 }
 .descriptionPsicoespiritual {
   display: flex;
@@ -127,8 +130,11 @@
   color: black;
   box-shadow: 0 0 10px 5px #929292;
   position: relative;
-  right: 20px;
+  left: 30px;
   border-radius: 25px;
+}
+.pSpan4{
+  text-align: center;
 }
 .contenedorValores2 {
   display: flex;
@@ -146,9 +152,12 @@
   font-size: 25px;
 }
 .btnAgenda {
+  position: relative;
   border-radius: 30px;
   padding: 10px 30px;
   border: #0dd1a9 solid 1px;
+  
+  bottom: 10px;
 }
 .btnAgenda:hover {
   background-color: #0dd1a9;
@@ -159,6 +168,7 @@
   display: flex;
   justify-content: end;
   position: relative;
+  
 }
 .contieneBoton1 {
   display: flex;
@@ -168,6 +178,9 @@
 }
 .subrayado{
   border-bottom: #0dd1a9 solid 1px;
+}
+.imgPSicoespiritual{
+
 }
 @media (max-width: 1200px) {
   .valor {

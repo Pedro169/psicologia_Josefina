@@ -248,6 +248,10 @@ span {
   color: white;
   text-decoration: none;
 }
+.calendly{
+  
+font-style: italic;
+}
 @media (max-width: 1200px) {
   .contenedorFooter {
     display: flex;
