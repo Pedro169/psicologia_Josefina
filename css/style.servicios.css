@@ -130,10 +130,10 @@
   color: black;
   box-shadow: 0 0 10px 5px #929292;
   position: relative;
-  left: 30px;
+  left: 20px;
   border-radius: 25px;
 }
-.pSpan4{
+.pSpan4 {
   text-align: center;
 }
 .contenedorValores2 {
@@ -156,7 +156,7 @@
   border-radius: 30px;
   padding: 10px 30px;
   border: #0dd1a9 solid 1px;
-  
+
   bottom: 10px;
 }
 .btnAgenda:hover {
@@ -168,7 +168,6 @@
   display: flex;
   justify-content: end;
   position: relative;
-  
 }
 .contieneBoton1 {
   display: flex;
@@ -176,11 +175,13 @@
   position: relative;
   top: 40px;
 }
-.subrayado{
+.subrayado {
   border-bottom: #0dd1a9 solid 1px;
 }
-.imgPSicoespiritual{
-
+.imgPSicoespiritual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 1200px) {
   .valor {
@@ -225,7 +226,7 @@
     justify-content: center;
     font-size: 15px;
   }
-  
+
   .descriptionPsicoterapia {
     display: flex;
     flex-direction: column;
@@ -279,7 +280,7 @@
     color: black;
     box-shadow: 0 0 10px 5px #929292;
     position: relative;
-    right: 0;
+    left: 0;
     font-size: 15px;
   }
   .contenedorValores2 {

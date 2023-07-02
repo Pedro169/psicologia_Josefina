@@ -120,8 +120,8 @@
                 <a
                   class="btn-heat"
                   href=""
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/30min?hide_gdpr_banner=1&background_color=0dd1a9&text_color=ffffff&primary_color=1a1a1a'});return false;"
-                  >¿Agendemos?</a
+                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/60min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
+                  >Agendemos</a
                 >
                 <!-- Final del widget de enlace de Calendly -->
               </div>
@@ -316,7 +316,6 @@
       </div>
     </div>
     <!-- Qualification End -->
-    <!-- Contact Start -->
     <div class="contenedorServicios container-fluid py-5" id="contact">
       <div class="container">
         <div
@@ -336,13 +335,18 @@
           <div class="col-lg-8">
             <div class="contact-form text-center">
               <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <form
+                action="https://formsubmit.co/ps.josefinagarcia@gmail.com "
+                method="POST"
+                name="sentMessage"
+              >
                 <div class="form-row">
                   <div class="control-group col-sm-6">
                     <input
                       type="text"
                       class="form-control p-4"
                       id="name"
+                      name="nombre"
                       placeholder="Nombre"
                       required="required"
                       data-validation-required-message="Porfavor Ingresa tu nombre"
@@ -352,6 +356,7 @@
                   <div class="control-group col-sm-6">
                     <input
                       type="tel"
+                      name="telefono"
                       class="form-control p-4"
                       id="telefono"
                       placeholder="Teléfono"
@@ -364,6 +369,7 @@
                 <div class="control-group">
                   <input
                     type="email"
+                    name="correo"
                     class="form-control p-4"
                     id="email"
                     placeholder="Correo Electrónico"
@@ -376,6 +382,7 @@
                   <textarea
                     class="form-control py-3 px-4"
                     rows="5"
+                    name="mensaje"
                     id="message"
                     placeholder="Mensaje"
                     required="required"
@@ -392,17 +399,19 @@
                     Enviar Mensaje
                   </button>
                 </div>
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://psjosefinagarcia.cl"
+                />
               </form>
             </div>
           </div>
         </div>
       </div>
-      <div class="contenedorVolver">
-        <a class="volver" href="index.html">Volver</a>
-      </div>
     </div>
-    <!-- Contact End -->
 
+    <!-- Contact End -->
     <!-- whatsapp start -->
     <div>
       <a
