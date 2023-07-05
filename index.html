@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>Ps María Josefina García Sáenz</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
+    <meta content="Psicóloga" name="keywords" />
+    <meta content="Psicóloga" name="description" />
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon" />
@@ -55,7 +55,7 @@
           <a href="#home" class="nav-item nav-link active">Inicio</a>
           <a href="#about" class="nav-item nav-link">Conóceme</a>
           <!-- <a href="#skill" class="nav-item nav-link">Skill</a>  -->
-          <a href="#service" class="nav-item nav-link">Servicios</a>
+          <a href="#services" class="nav-item nav-link">Servicios</a>
           <!-- <a href="#portfolio" class="nav-item nav-link">Portfolio</a>  -->
           <!--<a href="#testimonial" class="nav-item nav-link">Review</a>  -->
           <a href="#agenda" class="nav-item nav-link">Agenda</a>
@@ -75,8 +75,8 @@
           <a
             class="btn-agenda"
             href=""
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/60min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
-            >Agendemos</a
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
+            >Agendar</a
           >
           <!-- Final del widget de enlace de Calendly -->
         </div>
@@ -145,7 +145,12 @@
               class="typed-text-output d-inline font-weight-lighter text-white display-3 text-primary mb-2"
               style="-webkit-text-stroke: 2px #ffffff"
             ></h1>
-            <div>Hola Soy Josefina García</div>
+            <div
+              class="typed-text d-none display-3 text-uppercase text-primary mb-2"
+              style="-webkit-text-stroke: 2px #ffffff"
+            >
+              Hola Soy Josefina García
+            </div>
             <div>
               <p class="text-Cabezera">
                 Psicóloga clínica, magíster, diplomada y becada para un PhD. Me
@@ -173,8 +178,8 @@
                 <a
                   class="btn-heat"
                   href=""
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/60min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
-                  >Agendemos</a
+                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
+                  >Agendar</a
                 >
                 <!-- Final del widget de enlace de Calendly -->
               </div>
@@ -261,8 +266,8 @@
           <a
             class="btn-conoceme"
             href=""
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/60min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
-            >Agendemos</a
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
+            >Agendar</a
           >
           <!-- Final del widget de enlace de Calendly -->
           <a href="curriculum.html" class="btn btn-secundary">Currículum</a>
@@ -343,8 +348,8 @@
   Skill End -->
 
     <!-- Services Start -->
-    <div class="contenedorServicios">
-      <div class="container-fluid pt-5" id="service">
+    <div class="contenedorServicios" id="services">
+      <div class="container-fluid pt-5">
         <div class="container">
           <div
             class="position-relative d-flex align-items-center justify-content-center"
@@ -385,9 +390,10 @@
                 <h4 class="font-weight-bold m-0">Terapia Psico Espiritual</h4>
               </div>
               <p>
-                Terapia integrativa de 3 técnicas diferentes (Reiki, Lectura de Registros Akáshicos y Psicoterapia); 
-                con el fin de intentar lograr que la persona pueda conscientizar, solucionar o comprender esa inquietud
-                 a nivel físico, psiquíco y/o emocional. 
+                Terapia integrativa de 3 técnicas diferentes (Reiki, Lectura de
+                Registros Akáshicos y Psicoterapia); con el fin de intentar
+                lograr que la persona pueda conscientizar, solucionar o
+                comprender esa inquietud a nivel físico, psiquíco y/o emocional.
                 <br /><br />
               </p>
               <br /><br />
@@ -396,7 +402,7 @@
         </div>
       </div>
       <div class="centradoBtn">
-        <a class="btn-servicios" href="servicios.html">Quiero Agendar</a>
+        <a class="btn-servicios" href="servicios.html">Información Servicios</a>
       </div>
     </div>
 
@@ -451,11 +457,11 @@
 
     <!-- Comienzo Calendario -->
 
-    <div class="calendly" id="#agenda">
+    <div class="calendly" id="agenda">
       <!-- Principio del widget integrado de Calendly -->
       <div
-        class="calendly-inline-widget calendly"
-        data-url="https://calendly.com/ps-josefinagarcia/60min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a&text_aling=justify"
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a"
         style="min-width: 320px; height: 700px"
       ></div>
       <script
@@ -548,6 +554,7 @@
                     class="btn btn-outline-primary"
                     type="submit"
                     id="sendMessageButton"
+                    onclick="return validar()"
                   >
                     Enviar Mensaje
                   </button>

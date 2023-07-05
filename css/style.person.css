@@ -11,13 +11,12 @@
   display: flex;
   justify-content: center;
 }
-.text-Cabezera{
+.text-Cabezera {
   font-size: 25px;
   color: white;
   padding: 20px;
   position: relative;
   top: 30px;
-
 }
 .btn-secundary {
   background-color: #0dd1a9;
@@ -248,11 +247,61 @@ span {
   color: white;
   text-decoration: none;
 }
-.calendly{
-  
-font-style: italic;
+.calendly {
+  font-style: italic;
 }
+.contenedorPsicoespiritual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.justificado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  width: 700px;
+  height: auto;
+}
+.justificado2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  width: 700px;
+  height: auto;
+}
+.subrayado {
+  border-bottom: #0dd1a9 solid 1px;
+}
+.desaparece2 {
+  display: none;
+}
+
 @media (max-width: 1200px) {
+  .desaparece {
+    display: none;
+  }
+  .desaparece2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+  }
+  .justificado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: auto;
+    height: auto;
+  }
+  .justificado2 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: auto;
+    height: auto;
+  }
   .contenedorFooter {
     display: flex;
     justify-content: center;
@@ -262,14 +311,13 @@ font-style: italic;
     color: black;
     width: 100%;
   }
-  .text-Cabezera{
-  font-size: 20px;
-  color: white;
-  padding: 10px;
-  position: relative;
-  top: 30px;
-
-}
+  .text-Cabezera {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+  }
   .contenidoFooter {
     display: flex;
     flex-direction: column;
