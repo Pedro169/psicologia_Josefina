@@ -276,6 +276,11 @@ span {
 .desaparece2 {
   display: none;
 }
+.centrarBotton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 1200px) {
   .desaparece {
@@ -420,6 +425,7 @@ span {
   .btn-heat {
     border: 1px solid white;
     color: white;
+    text-align: center;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 15px;
