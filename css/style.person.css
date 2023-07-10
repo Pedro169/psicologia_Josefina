@@ -214,6 +214,10 @@ span {
 .contenedorServicios {
   background-color: #ececec;
 }
+.celular {
+  font-size: 15px;
+}
+
 .cajaServicios {
   background-color: white;
   padding: 20px;
@@ -266,7 +270,7 @@ span {
   align-items: center;
   justify-content: center;
 }
-.alejar{
+.alejar {
   display: flex;
   position: relative;
   left: 100px;
