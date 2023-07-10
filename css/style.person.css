@@ -221,6 +221,8 @@ span {
   flex-direction: column;
   border-radius: 15px;
   box-shadow: 0 0 10px 5px #bebbbb;
+  position: relative;
+  left: 50px;
 }
 .cajaServicios2 {
   background-color: white;
@@ -228,6 +230,15 @@ span {
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 0 10px 5px #bebbbb;
+}
+.cajaServicios3 {
+  background-color: white;
+  padding: 5px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px 5px #bebbbb;
+  position: relative;
+  left: 90px;
 }
 .centradoBtn {
   display: flex;
@@ -254,6 +265,11 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.alejar{
+  display: flex;
+  position: relative;
+  left: 100px;
 }
 .justificado {
   display: flex;
