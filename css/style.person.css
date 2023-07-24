@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .botonesConoceme {
   display: flex;
   position: relative;
@@ -56,7 +63,7 @@
 }
 .btn-conoceme {
   border: 1px solid #0dd1a9;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 30px;
 }
 
@@ -213,6 +220,8 @@ span {
 }
 .contenedorServicios {
   background-color: #ececec;
+  width: 100%;
+  height: 100%;
 }
 .celular {
   font-size: 15px;
@@ -262,8 +271,52 @@ span {
   color: white;
   text-decoration: none;
 }
+.img-josefina {
+  width: 15rem;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px #929292;
+}
+
 .calendly {
+  background-image: url(../img/cerebro-ampolleta.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 50rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
   font-style: italic;
+  font-size: 1.2rem;
+  padding: 4.5rem;
+}
+.parrafoCalendly {
+  padding: 3rem;
+}
+span {
+  font-weight: bold;
+  color: #0dd1a9;
+}
+.calendly-inter {
+  text-align: center;
+  background-color: white;
+  width: auto;
+  height: 40rem;
+  border-radius: 1rem;
+  width: 31rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px 5px #929292;
+}
+.btn-calendly {
+  color: #0dd1a9;
+  border-radius: 1rem;
+  border: 1px #0dd1a9 solid;
+  padding: 0.2rem 1rem;
+}
+.btn-calendly:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #0dd1a9;
 }
 .contenedorPsicoespiritual {
   display: flex;
@@ -280,15 +333,11 @@ span {
   flex-direction: column;
   justify-content: center;
   text-align: justify;
-  width: 700px;
-  height: auto;
 }
 .justificado2 {
   display: flex;
   justify-content: center;
   text-align: justify;
-  width: 700px;
-  height: auto;
 }
 .subrayado {
   border-bottom: #0dd1a9 solid 1px;
@@ -305,6 +354,50 @@ span {
 @media (max-width: 1200px) {
   .desaparece {
     display: none;
+  }
+  .img-josefina {
+    width: 10rem;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #929292;
+  }
+  .calendly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0dd1a9;
+    background-image: none;
+    color: black;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 4.5rem;
+  }
+  .parrafoCalendly {
+    padding: .5rem;
+  }
+  span {
+    font-weight: bold;
+    color: #0dd1a9;
+  }
+  .btn-calendly {
+    color: #0dd1a9;
+    border-radius: 1rem;
+    border: 1px #0dd1a9 solid;
+    padding: 0.2rem 1rem;
+  }
+  .btn-calendly:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0dd1a9;
+  }
+  .calendly-inter {
+    text-align: center;
+    background-color: white;
+    height: auto;
+    border-radius: 1rem;
+    width: 17rem;
+    padding: .5rem;
+    box-shadow: 0 0 10px 5px #929292;
   }
   .desaparece2 {
     display: flex;
@@ -428,6 +521,32 @@ span {
     padding: 5px 10px;
     border-radius: 30px;
     font-size: 15px;
+  }
+  .cajaServicios {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #bebbbb;
+    position: relative;
+    left: 0px;
+  }
+  .cajaServicios2 {
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px #bebbbb;
+  }
+  .cajaServicios3 {
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px #bebbbb;
+    position: relative;
+    left: 0px;
   }
 
   .btn-agenda:hover {

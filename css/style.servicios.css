@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .principio {
   display: flex;
   flex-direction: column;
@@ -50,6 +57,7 @@
   box-shadow: 0 0 10px 5px #929292;
   position: relative;
   border-radius: 25px;
+  width: 800px;
 }
 .contendorTodoPsico {
   display: flex;
@@ -98,6 +106,8 @@
   padding: 20px;
   font-size: 20px;
   text-align: left;
+  width: 100%;
+  height: 100%;
 }
 .contendorPsicoespiritual {
   display: flex;
@@ -149,6 +159,8 @@
   box-shadow: 0 0 10px 5px #929292;
   position: relative;
   border-radius: 25px;
+  width: 650px;
+  height: auto;
 }
 .pSpan4 {
   text-align: justify;
@@ -163,6 +175,8 @@
   position: relative;
   left: 40px;
   border-radius: 25px;
+  width: 650px;
+  height: auto;
 }
 .cuartaSesion {
   color: #0dd1a9;
@@ -207,6 +221,34 @@
     justify-content: center;
     font-size: 15px;
   }
+  .contenedorValores1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;
+    padding: 30px;
+    color: black;
+    box-shadow: 0 0 10px 5px #929292;
+    position: relative;
+    border-radius: 25px;
+    left: 0px;
+    width: 300px;
+    height: auto;
+  }
+ 
+  .contenedorValores2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;
+    padding: 30px;
+    color: black;
+    box-shadow: 0 0 10px 5px #929292;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+  }
   .contenedorPsicoterapia {
     display: flex;
     flex-direction: column;
@@ -215,7 +257,7 @@
     color: black;
     box-shadow: 0 0 10px 5px #929292;
     position: relative;
-    left: 0;
+    left: 0px;
     font-size: 15px;
   }
   .valor {
@@ -307,29 +349,7 @@
     font-weight: bold;
     text-align: center;
   }
-  .contenedorValores1 {
-    display: flex;
-    flex-direction: column;
-    border: 1px grey solid;
-    padding: 30px;
-    color: black;
-    box-shadow: 0 0 10px 5px #929292;
-    position: relative;
-    left: 0;
-    font-size: 15px;
-  }
-  .contenedorValores2 {
-    display: flex;
-    flex-direction: column;
-    border: 1px grey solid;
-    padding: 30px;
-    color: black;
-    box-shadow: 0 0 10px 5px #929292;
-    position: relative;
-    left: 0;
-    top: 30px;
-    font-size: 15px;
-  }
+  
   .cuartaSesion {
     color: #0dd1a9;
     font-size: 15px;
