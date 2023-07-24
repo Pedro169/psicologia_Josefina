@@ -116,21 +116,17 @@
             >
               <div >
                 <!-- Principio del widget de enlace de Calendly -->
-                <link
-                  href="https://assets.calendly.com/assets/external/widget.css"
-                  rel="stylesheet"
-                />
                 <script
-                  src="https://assets.calendly.com/assets/external/widget.js"
-                  type="text/javascript"
-                  async
-                ></script>
-                <a
-                  class="btn-heat"
-                  href=""
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
-                  >Agendar</a
-                >
+                id="setmore_script"
+                type="text/javascript"
+                src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"
+              ></script>
+              <a
+                style="float: none"
+                class="btn-heat"
+                id="Setmore_button_iframe"
+                href="https://booking.setmore.com/scheduleappointment/bd9991e9-07c2-4e6a-987e-fa9262b64826"
+                >Agendar</a>
                 <!-- Final del widget de enlace de Calendly -->
               </div>
               <!--<button type="button" class="btn-play" data-toggle="modal"
@@ -331,34 +327,40 @@
     </section>
     <!-- fin servicios -->
 
-    <!-- Comienzo Calendario -->
-    <div
-      class="contenedorServicios containerAbout container-fluid pt-5"
-      id="agenda"
-    >
-      <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
+  <!-- Comienzo Calendario -->
+
+  <div class="calendly" id="agenda">
+    <div>
+      <div class="calendly-inter">
+        <img
+          class="img-josefina"
+          src="img/profile.jpg"
+          alt="imagen-josefina"
+        />
+        <p class="parrafoCalendly">
+          <span>Hola,</span> estoy muy contenta que quieras agendar, porfavor
+          presiona el siguiente boton para desplegar mi calendario de
+          reservas, si tienes alguna duda puedes
+          <span>consultar a mi whatsapp</span>, presionando el icono de la
+          aplicación.
+        </p>
+        <script
+          id="setmore_script"
+          type="text/javascript"
+          src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"
+        ></script>
+        <a
+          style="float: none"
+          class="btn-calendly"
+          id="Setmore_button_iframe"
+          href="https://booking.setmore.com/scheduleappointment/bd9991e9-07c2-4e6a-987e-fa9262b64826"
+          >Agendar</a
         >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
-          >
-            Agenda
-          </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
-            en línea
-          </h1>
-        </div>
-        <div>
-      <!-- Principio del widget integrado de Calendly -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a" style="min-width:320px;height:700px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-      <!-- Final del widget integrado de Calendly -->
-        </div>
       </div>
     </div>
-    <!--Final Calendario -->
+  </div>
+
+  <!--Final Calendario -->
     <div class="contenedorVolverServ">
       <a class="volver" href="index.html">Volver</a>
     </div>
