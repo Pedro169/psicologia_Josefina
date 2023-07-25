@@ -22,6 +22,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- meta posicionamiento-->
+    <meta
+      name="keywords"
+      content="banqueteria, servicio banqueteria, coffe break, pasteleria, desayunos, Desayunos, servicios empresas"
+    />
+    <meta
+      name="description"
+      content="Emprendimiento / PYME creada el año 2012 por una joven idealista que (a través de su dedicación, compromiso y vocación); busca entregar experiencias gastronómicas novedosas, únicas y siempre acorde a los requerimientos de las personas. "
+    />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -249,23 +258,18 @@
           </div>
         </div>
         <div class="botonesConoceme">
-          <!-- Principio del widget de enlace de Calendly -->
-          <link
-            href="https://assets.calendly.com/assets/external/widget.css"
-            rel="stylesheet"
-          />
           <script
-            src="https://assets.calendly.com/assets/external/widget.js"
-            type="text/javascript"
-            async
-          ></script>
-          <a
-            class="btn-conoceme"
-            href=""
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ps-josefinagarcia/70min?hide_gdpr_banner=1&background_color=0dd1a9&primary_color=1a1a1a'});return false;"
-            >Agendar</a
-          >
-          <!-- Final del widget de enlace de Calendly -->
+          id="setmore_script"
+          type="text/javascript"
+          src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"
+        ></script>
+        <a
+          style="float: none"
+          class="btn-calendly"
+          id="Setmore_button_iframe"
+          href="https://booking.setmore.com/scheduleappointment/bd9991e9-07c2-4e6a-987e-fa9262b64826"
+          >Agendar</a
+        >
           <a href="curriculum.html" class="btn btn-secundary">Currículum</a>
         </div>
       </div>
@@ -482,24 +486,22 @@
             alt="imagen-josefina"
           />
           <p class="parrafoCalendly">
-            <span>Hola,</span> estoy muy contenta que quieras agendar, porfavor
-            presiona el siguiente boton para desplegar mi calendario de
-            reservas, si tienes alguna duda puedes
-            <span>consultar a mi whatsapp</span>, presionando el icono de la
-            aplicación.
+            <span>Si quieres agendar,</span> presiona el botón a continuación
+            para ver el calendario; sino también me puedes escribir al WhatsApp.<br><br>
+
+            <script
+              id="setmore_script"
+              type="text/javascript"
+              src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"
+            ></script>
+            <a
+              style="float: none"
+              class="btn-calendly"
+              id="Setmore_button_iframe"
+              href="https://booking.setmore.com/scheduleappointment/bd9991e9-07c2-4e6a-987e-fa9262b64826"
+              >Agendar</a
+            >
           </p>
-          <script
-            id="setmore_script"
-            type="text/javascript"
-            src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"
-          ></script>
-          <a
-            style="float: none"
-            class="btn-calendly"
-            id="Setmore_button_iframe"
-            href="https://booking.setmore.com/scheduleappointment/bd9991e9-07c2-4e6a-987e-fa9262b64826"
-            >Agendar</a
-          >
         </div>
       </div>
     </div>
